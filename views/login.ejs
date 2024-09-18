@@ -1,0 +1,19 @@
+<%- include("header.ejs") %>
+
+<% if (locals.password_valid == false) {%>
+<h3 style="color: red;">Incorrect Password. Try again!</h3>
+<% } %>
+
+<% if (locals.user_exists == false) {%>
+    <h3 style="color: red;">There is no account in this username.</h3>
+<% } %>
+
+<form action="/user-page" method="POST">
+    <input type="username" name="username" placeholder="Username" pattern="^\S+$">
+    <input type="password" name="password" placeholder="Password">
+    <input type="submit" value="Submit">
+</form>
+
+<a href="/sign-up">Not a member? sign up now</a>
+
+<%- include("footer.ejs") %>
