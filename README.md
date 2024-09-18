@@ -72,10 +72,7 @@ This project is a simple user login and signup system implemented using Node.js,
 
 Contributions are welcome! Please open an issue for discussion on major changes or submit a pull request for minor improvements.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-For any questions or feedback, please contact [your-email@example.com](mailto:your-email@example.com).
+For any questions or feedback, please contact [bavafaamirali@hotmail.com](mailto:bavafaamirali@hotmail.com).
